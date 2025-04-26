@@ -110,7 +110,7 @@ function App() {
               className={`px-3 py-2 rounded-md text-sm font-medium ${
                 activeTab === 'dashboard'
                   ? 'bg-indigo-600 text-white'
-                  : 'text-gray-600 hover:text-gray-900'
+                  : 'text-gray-400 hover:text-gray-600'
               }`}
             >
               Dashboard
@@ -120,7 +120,7 @@ function App() {
               className={`px-3 py-2 rounded-md text-sm font-medium ${
                 activeTab === 'register'
                   ? 'bg-indigo-600 text-white'
-                  : 'text-gray-600 hover:text-gray-900'
+                  : 'text-gray-400 hover:text-gray-600'
               }`}
             >
               Register Product
@@ -130,7 +130,7 @@ function App() {
               className={`px-3 py-2 rounded-md text-sm font-medium ${
                 activeTab === 'track'
                   ? 'bg-indigo-600 text-white'
-                  : 'text-gray-600 hover:text-gray-900'
+                  : 'text-gray-400 hover:text-gray-600'
               }`}
             >
               Track Location
